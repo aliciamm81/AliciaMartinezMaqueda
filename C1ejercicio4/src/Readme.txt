@@ -18,3 +18,15 @@ Si ingresamos 0 como segundo número en la ejecución del programa nos devuelve 
 
 Con lo aprendido hasta ahora la única solución sería indicarle por consola al usuario que introduzca un
 número diferente a 0
+
+
+
+--- Comprobado por Jorge Villaplana Millá.
+Obteniendo la siguiente tabla de resultados
+					sum	rest 	mult	div
+
+			(16, 2)		18	14	32	8.0
+
+	num1, num2	(9, 12)		21	-3	108	0.75
+
+			(-1, 6)		5	-7	-6	-0.16666666666666666	
