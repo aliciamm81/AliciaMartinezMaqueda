@@ -5,7 +5,7 @@ public class Main {
          * Asigna un valor a cada variable y muestra su contenido en la consola.
          * */
 
-        
+
         //Declaración de variables
         int nEntero;
         double nReal;

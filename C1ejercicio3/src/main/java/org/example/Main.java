@@ -13,7 +13,10 @@ public class Main {
         double altura = 12.5;
 
         // Realizo el cálculo del area.
-        double area = base * altura;
+        double area = (base * altura) /2;
+
+        //Imprimo por pantalla
+        System.out.println("El area del triangulo es: " + area + "cm");
 
     }
 }
