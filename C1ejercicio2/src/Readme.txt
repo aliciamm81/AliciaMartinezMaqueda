@@ -45,5 +45,6 @@ Justificar el por qué de cada caso. Debatir con otros compañeros.
         //cadenaCaracteres = 'J'+'o'; Este caso es curioso porque en lugar de intentar hacer concatenación de caracteres en un Strng, hace suma de los valores enteros
         //cadenaCaracteres = false;
         cadenaCaracteres = null;
+
         System.out.println("Resultado de asignar a una variable de tipo String el valor null: " + cadenaCaracteres); -> Resultado de asignar a una variable de tipo String el valor null: null
 (Justificación: la variable muestra directamente 'null' porque directamente considera que está completamente vacía, y todos los 'objetos' o clases vacíos arrojan null.)
