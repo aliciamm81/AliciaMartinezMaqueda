@@ -24,7 +24,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        //Creo un buble for para recorrer el array e ir
+        //Creo un bucle for para recorrer el array e ir
         //guardando en el los valores que el usuario introduzca por pantalla.
         //También voy sumando las veces que da vueltas el bucle en la variable contador
 

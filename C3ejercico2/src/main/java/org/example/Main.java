@@ -5,10 +5,10 @@ public class Main {
         //a) Crear un vector de tipo Persona cinco posiciones. Crear cinco personas y guardarlas en él.
         Persona[] personas = new Persona[5];
         personas[0] = new Persona(1,"Juan",25,"Calle barcelona nº 15",656225325);
-        personas[1] = new Persona(1,"Sofia",20,"Calle las rosas nº 13",632245452);
-        personas[2] = new Persona(1,"Vicky",41,"Calle las flores nº 8",632565656);
-        personas[3] = new Persona(1,"Luisa",45,"Calle los arboles nº 9",624455555);
-        personas[4] = new Persona(1,"Felipe",38,"Calle mariposas nº 125",666333221);
+        personas[1] = new Persona(2,"Sofia",20,"Calle las rosas nº 13",632245452);
+        personas[2] = new Persona(3,"Vicky",41,"Calle las flores nº 8",632565656);
+        personas[3] = new Persona(4,"Luisa",45,"Calle los arboles nº 9",624455555);
+        personas[4] = new Persona(5,"Felipe",38,"Calle mariposas nº 125",666333221);
 
 
         //b) Recorrer el vector creado y mostrar por pantalla el nombre y edad de cada persona almacenada.
