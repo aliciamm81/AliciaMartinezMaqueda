@@ -1,0 +1,5 @@
+******************************EJERCICO GRUPAL********************************
+
+Este es el enlace del repositorio donde realizamos este ejercicio: 
+
+https://github.com/Oscar2912/SistemaVerduras
