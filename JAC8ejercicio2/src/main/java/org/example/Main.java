@@ -22,7 +22,7 @@ public class Main {
          * y le solicta al usuario que marque una opción
          */
         Integer opcion = 0;
-        do {boolean seguir = true;
+        do {
             opcion = iniciar();
             switch (opcion) {
                 case 1:
@@ -44,7 +44,6 @@ public class Main {
                     System.out.println("Selecciona una opción correcta");
                     break;
             }
-            //opcion = iniciar();
         } while (opcion != 5);
     }
 
