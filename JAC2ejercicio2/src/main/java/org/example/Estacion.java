@@ -40,7 +40,7 @@ public class Estacion implements Runnable {
                     break;
             }
             try {
-                Thread.sleep(2000);
+                Thread.sleep(3000);
             } catch (Exception e) {
                 System.out.println("Error");
             }

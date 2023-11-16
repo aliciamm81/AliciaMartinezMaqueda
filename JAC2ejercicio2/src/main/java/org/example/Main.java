@@ -1,8 +1,5 @@
 package org.example;
 
-import org.graalvm.polyglot.io.MessageTransport;
-
-import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
