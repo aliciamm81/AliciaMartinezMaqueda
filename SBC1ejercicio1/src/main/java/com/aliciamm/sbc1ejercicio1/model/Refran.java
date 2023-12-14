@@ -1,4 +1,4 @@
-package com.aliciamm.sbc1ejercicio1.models.domain;
+package com.aliciamm.sbc1ejercicio1.model;
 
 public class Refran {
     private Integer id;

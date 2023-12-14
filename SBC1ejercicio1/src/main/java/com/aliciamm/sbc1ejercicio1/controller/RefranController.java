@@ -1,6 +1,6 @@
 package com.aliciamm.sbc1ejercicio1.controller;
 
-import com.aliciamm.sbc1ejercicio1.models.domain.Refran;
+import com.aliciamm.sbc1ejercicio1.model.Refran;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
