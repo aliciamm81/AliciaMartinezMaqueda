@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "9640dfc1-04a5-4b82-bcd1-1789f8439707",
+		"name": "Eventos universidad",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26107817",
+		"_collection_link": "https://cloudy-trinity-585038.postman.co/workspace/21d6c910-4406-466a-abe1-f0ff6b8cc269/collection/26107817-9640dfc1-04a5-4b82-bcd1-1789f8439707?action=share&source=collection_link&creator=26107817"
+	},
+	"item": [
+		{
+			"name": "crear evento 1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n    {\r\n        \"titulo\": \"Master class programación\",\r\n        \"descripcion\": \"En esta sesión daremos un curso intensivo sobre programación Java\",\r\n        \"fecha\": \"2023-12-18\",\r\n        \"hora\": \"10:00\",\r\n        \"lugar\": \"Sala de juntas\",\r\n        \"ponente\": \"Rodolfo Martín\",\r\n        \"participantes\": [\r\n            {\r\n                \"nombre\": \"Alicia\",\r\n                \"apellidos\": \"Martín\",\r\n                \"telefono\": 15645613,\r\n                \"dni\": 564564561\r\n            },\r\n            {\r\n                \"nombre\": \"Juan\",\r\n                \"apellidos\": \"Gómez\",\r\n                \"telefono\": 98765432,\r\n                \"dni\": 123456789\r\n            },\r\n            {\r\n                \"nombre\": \"María\",\r\n                \"apellidos\": \"López\",\r\n                \"telefono\": 45678901,\r\n                \"dni\": 987654321\r\n            },\r\n            {\r\n                \"nombre\": \"Carlos\",\r\n                \"apellidos\": \"Sánchez\",\r\n                \"telefono\": 33344455,\r\n                \"dni\": 444555666\r\n            },\r\n            {\r\n                \"nombre\": \"Elena\",\r\n                \"apellidos\": \"García\",\r\n                \"telefono\": 111222333,\r\n                \"dni\": 222333444\r\n            },\r\n            {\r\n                \"nombre\": \"Pedro\",\r\n                \"apellidos\": \"Fernández\",\r\n                \"telefono\": 777888999,\r\n                \"dni\": 888999000\r\n            }\r\n        ]\r\n    },\r\n    {\r\n        \"titulo\": \"Conferencia de Ciencias Computacionales\",\r\n        \"descripcion\": \"Una conferencia sobre los avances en inteligencia artificial y aprendizaje automático.\",\r\n        \"fecha\": \"2023-12-15\",\r\n        \"hora\": \"10:00\",\r\n        \"lugar\": \"Aula Magna Centro del Conocimiento\",\r\n        \"ponente\": \"Dr. Esteban Madrazzo\",\r\n        \"participantes\": [\r\n            {\r\n                \"nombre\": \"Laura\",\r\n                \"apellidos\": \"González\",\r\n                \"telefono\": 12345678,\r\n                \"dni\": 987654321\r\n            },\r\n            {\r\n                \"nombre\": \"Javier\",\r\n                \"apellidos\": \"Hernández\",\r\n                \"telefono\": 87654321,\r\n                \"dni\": 123456789\r\n            },\r\n            {\r\n                \"nombre\": \"Ana\",\r\n                \"apellidos\": \"Pérez\",\r\n                \"telefono\": 45678901,\r\n                \"dni\": 234567890\r\n            },\r\n            {\r\n                \"nombre\": \"Pablo\",\r\n                \"apellidos\": \"Sánchez\",\r\n                \"telefono\": 33344455,\r\n                \"dni\": 555666777\r\n            },\r\n            {\r\n                \"nombre\": \"María\",\r\n                \"apellidos\": \"Martínez\",\r\n                \"telefono\": 999888777,\r\n                \"dni\": 777888999\r\n            }\r\n        ]\r\n    }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/evento",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"evento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "crear evento 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"titulo\": \"Taller de Desarrollo Web Avanzado\",\r\n    \"descripcion\": \"Un taller intensivo sobre las últimas tendencias y técnicas en desarrollo web.\",\r\n    \"fecha\": \"2023-12-20\",\r\n    \"hora\": \"14:30\",\r\n    \"lugar\": \"Salón de Conferencias\",\r\n    \"ponente\": \"Dra. Andrea Torres\",\r\n    \"participantes\": [\r\n        {\r\n            \"nombre\": \"Fernando\",\r\n            \"apellidos\": \"Martínez\",\r\n            \"telefono\": 12345678,\r\n            \"dni\": 987654321\r\n        },\r\n        {\r\n            \"nombre\": \"Lucía\",\r\n            \"apellidos\": \"González\",\r\n            \"telefono\": 87654321,\r\n            \"dni\": 123456789\r\n        },\r\n        {\r\n            \"nombre\": \"Diego\",\r\n            \"apellidos\": \"Pérez\",\r\n            \"telefono\": 45678901,\r\n            \"dni\": 234567890\r\n        },\r\n        {\r\n            \"nombre\": \"Sofía\",\r\n            \"apellidos\": \"Sánchez\",\r\n            \"telefono\": 33344455,\r\n            \"dni\": 555666777\r\n        },\r\n        {\r\n            \"nombre\": \"Luisa\",\r\n            \"apellidos\": \"Fernández\",\r\n            \"telefono\": 999888777,\r\n            \"dni\": 777888999\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/evento",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"evento"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mostrar eventos",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "mostrar evento por id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
