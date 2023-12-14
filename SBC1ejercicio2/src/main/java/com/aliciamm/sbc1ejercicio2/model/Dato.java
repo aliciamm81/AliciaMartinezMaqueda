@@ -1,4 +1,4 @@
-package com.aliciamm.sbc1ejercicio2.models.domain;
+package com.aliciamm.sbc1ejercicio2.model;
 
 public class Dato {
     private Integer id;
