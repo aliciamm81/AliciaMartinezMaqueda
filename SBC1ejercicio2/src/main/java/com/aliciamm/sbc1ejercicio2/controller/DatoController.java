@@ -1,6 +1,6 @@
 package com.aliciamm.sbc1ejercicio2.controller;
 
-import com.aliciamm.sbc1ejercicio2.models.domains.Dato;
+import com.aliciamm.sbc1ejercicio2.models.domain.Dato;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
