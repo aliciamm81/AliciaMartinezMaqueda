@@ -52,7 +52,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "[\r\n    {\r\n        \"id\": 1,\r\n        \"brand\": \"Peugeot\",\r\n        \"model\": \"206\",\r\n        \"kilometers\": \"150000\",\r\n        \"doors\": 5,\r\n        \"price\": 7500.0\r\n    },\r\n    {\r\n        \"brand\": \"Peugeot\",\r\n        \"model\": \"206\",\r\n        \"kilometers\": \"150000\",\r\n        \"doors\": 5,\r\n        \"price\": 7500.0\r\n    }\r\n]",
+					"raw": "[\r\n    {   \r\n        \"brand\": \"Peugeot\",\r\n        \"model\": \"206\",\r\n        \"kilometers\": \"150000\",\r\n        \"doors\": 5,\r\n        \"price\": 7500.0\r\n    },\r\n   {\r\n    \"brand\": \"Toyota\",\r\n    \"model\": \"Corolla\",\r\n    \"kilometers\": \"120000\",\r\n    \"doors\": 4,\r\n    \"price\": 8500.0\r\n},\r\n{\r\n    \"brand\": \"Ford\",\r\n    \"model\": \"Fiesta\",\r\n    \"kilometers\": \"80000\",\r\n    \"doors\": 3,\r\n    \"price\": 6000.0\r\n},\r\n{\r\n    \"brand\": \"Honda\",\r\n    \"model\": \"Civic\",\r\n    \"kilometers\": \"100000\",\r\n    \"doors\": 4,\r\n    \"price\": 9000.0\r\n},\r\n{\r\n    \"brand\": \"Volkswagen\",\r\n    \"model\": \"Golf\",\r\n    \"kilometers\": \"95000\",\r\n    \"doors\": 5,\r\n    \"price\": 7800.0\r\n}\r\n\r\n]",
 					"options": {
 						"raw": {
 							"language": "json"
